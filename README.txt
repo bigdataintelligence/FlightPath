@@ -9,7 +9,7 @@ and wrapped up with linux shell. Please find below instructions for running it.
 
 a) Assume you have Java 1.8 runtime installed on your linux computer.
 b) You have received FlightPath.zip file that consists of four files:
-	- FlightPath.class
+	- FlightPath.class 
 	- FlightPath.java
 	- list-flight-paths.sh
 	- README
