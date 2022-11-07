@@ -9,7 +9,7 @@ and wrapped up with linux shell. Please find below instructions for running it.
 
 a) Assume you have Java 1.8 runtime installed on your linux computer.
 b) You have received FlightPath.zip file that consists of four files:
-	- FlightPath.class 
+	- FlightPath.class
 	- FlightPath.java
 	- list-flight-paths.sh
 	- README
@@ -32,16 +32,17 @@ Test case 2.2
 -------------
 
 ./bin/list-flight-paths "Castle Black" 
-Thank you for testing this application; here are your input: Castle Black
-Correct Usage: Java FlightPath "source location" "target location"
+Thank you for testing this application; here are your input parameter(s): Castle Black
+Either source location or target location is unrecognisable
 
 -------------
 Test case 2.3
 -------------
 
 ./bin/list-flight-paths "Castle Black" "Riverrun" "winterfell"
-Thank you for testing this application; here are your input parameter(s): Castle Black Riverrun winterfell
-Correct Usage: Java FlightPath "source location" "target location"
+Thank you for testing this application; here are your input parameter(s): Castle Black Riverrun
+Castle Black -> winterfell -> Riverrun: 55
+Castle Black -> Riverrun: 80
 
 -------------
 Test case 2.4

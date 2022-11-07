@@ -1,0 +1,1 @@
+java FlightPath "$1" "$2"
